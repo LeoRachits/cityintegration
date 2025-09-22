@@ -1,0 +1,27 @@
+{
+  "info": {
+    "name": "CityIntegration API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Hello",
+      "request": { "method": "GET", "url": "{{baseUrl}}/api/hello" }
+    },
+    {
+      "name": "Status",
+      "request": { "method": "GET", "url": "{{baseUrl}}/api/status" }
+    },
+    {
+      "name": "Listar Cidades",
+      "request": { "method": "GET", "url": "{{baseUrl}}/api/cidades" }
+    },
+    {
+      "name": "Buscar Cidade por ID",
+      "request": { "method": "GET", "url": "{{baseUrl}}/api/cidade/1" }
+    }
+  ],
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:8080" }
+  ]
+}

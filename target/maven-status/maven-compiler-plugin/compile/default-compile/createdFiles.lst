@@ -1,0 +1,6 @@
+com\faculdade\cityintegration\CityService.class
+com\faculdade\cityintegration\exception\CidadeNaoEncontradaException.class
+com\faculdade\cityintegration\App.class
+com\faculdade\cityintegration\CityController.class
+com\faculdade\cityintegration\CityintegrationApplication.class
+com\faculdade\cityintegration\GlobalExceptionHandler.class
